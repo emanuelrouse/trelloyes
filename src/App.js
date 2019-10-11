@@ -1,7 +1,9 @@
 import React from 'react';
-import Lists from './components/List'
+import Lists from './components/Lists'
+import './App.css'
 
 function App(props) {
+
   return (
     <main className="App">
       <header className="App-header">

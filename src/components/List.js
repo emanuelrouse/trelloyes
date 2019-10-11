@@ -1,6 +1,6 @@
 import React from 'react';
 import './List.css';
-import Card from './Card';
+import Cards from './Cards';
 
 function List(props) {
   console.log(props.header)
@@ -9,8 +9,11 @@ function List(props) {
       <header className="List-header">
         <h2>{props.header}</h2>
       </header>
+      <div className="List-cards">
+        <Cards cards={props.cards} />
+      </div>
     </section>
-  )
+  );
 }
 export default List;
 
