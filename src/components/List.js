@@ -1,6 +1,6 @@
 import React from 'react';
-import './List.css';
 import Cards from './Cards';
+import './List.css';
 
 function List(props) {
   console.log(props.header)

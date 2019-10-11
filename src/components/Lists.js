@@ -9,7 +9,11 @@ function Lists(props) {
       return props.cards[cardId]
     }); 
     
-    return <List key={id} header={header} cards={cards}/>
+    return <List 
+              key={id} 
+              header={header} 
+              cards={cards}
+            />
   });
   
   return (

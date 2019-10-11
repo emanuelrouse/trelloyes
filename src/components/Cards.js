@@ -1,9 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function Cards(props) {
-  // Left off working on cards component: error cards is not an array? 
-
+function Cards(props) { 
   const Cards = props.cards.map(card => {
     const content= card.content;
     const id = card.id;
